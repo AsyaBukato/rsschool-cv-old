@@ -1,8 +1,9 @@
 # Anastasiya Bukata CV
+![](photo.jpg)
 1. Name: Anastasiya Bukata
 2. Contacts:
     * Email: anastasijagrig16.08.1993@gmail.com
-    * Tel: [+375 33 6255558](tel:+375336255558)
+    * Tel: +375 33 6255558
     * Discord: asyabukato#7060
 3. Info: RS School JS frontend lab student. Strongly motivated, eager for new knowledges.
 4. Skills:
