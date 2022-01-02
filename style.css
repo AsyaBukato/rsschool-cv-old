@@ -1,1 +1,144 @@
-HTML CV
+footer {
+  background-color: #9bb6a4;
+}
+
+header{
+  background:#9bb6a4;
+}
+
+.year-2022 {
+  font-size: 25px;
+}
+
+.menu {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none
+}
+
+.menu-link {
+  padding: 0 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #000;
+  transition: .3s;
+}
+
+.menu-link:hover {
+  color: #ffffff;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0; padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fdfdfd;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-elements {
+  line-height: 62px;
+}
+
+.footer-pics {
+  opacity: 80%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 50px);
+  padding: 0px 10px;
+  border-bottom: 1px solid #e9d2b0;
+}
+
+.language-section {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 20px);
+  padding: 0px 10px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding: 50px 0px 50px;
+  border-bottom: 20px solid #e9dbc6;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px #000000;
+  margin: 0px 20px;
+}
+
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+code {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20 px;
+}
+
+.font_light {
+  font-weight: 300;
+}
+
+.email {
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+ul {
+  padding-inline-start: 20px;
+}
